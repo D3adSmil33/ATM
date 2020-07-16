@@ -1,0 +1,140 @@
+.mainContainer {
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    vertical-align:center;
+    background-color: #f2f2f2;
+    box-shadow: 4px 5px 11px #a6a6a6;
+    text-align: center;
+}
+
+.textContainer {
+    width: 450px;
+    height: 150px;
+    background-image: linear-gradient(#ffa31a, #ffb84d);
+    opacity: 0.9;
+    padding: 40px;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    display: block;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffd699;
+}
+
+span {
+    font-family: "Sofia";
+    font-size: 55px;
+    text-shadow: 2px 3px 5px #cc7a00;
+
+}
+
+.buttonWrap {
+    position: relative;
+    top: 90px;
+}
+
+button {
+    display: inline-block;
+    background-image: linear-gradient(#ffa31a, #ffc266);
+    color: white;
+    height: 60px;
+    width: 150px;
+    border: none;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.buttonStyle {
+    border-radius: 5px;
+    transition-duration: 0.45s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.buttonStyle:hover {
+    background-image: linear-gradient(white, whitesmoke);
+    color: #ffa31a;
+    border: 2px solid #ffa31a;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 1s;
+}
+
+.box-content {
+    position: relative;
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+
+.formClose {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(#ffa31a, #ffc266);
+}
+
+.closeClick {
+    transform: rotate(45deg);
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+.error {
+    width: 100%;
+    margin-top: 210px;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    display: block;
+    margin: 0 auto;
+    margin: 15px auto;
+    border: none;
+    border-bottom: 2px solid #ffa31a;
+    box-sizing: border-box;
+    outline: none;
+    transition-duration: 0.45s;
+}
+
+input[type=password]:hover {
+     border: 2px solid #ffa31a;
+ }
+
+input[type=text]:hover {
+    border: 2px solid #ffa31a;
+}
+
+.submitBtn {
+    width: 250px;
+    border-radius: 5px;
+    transition-duration: 0.45s;
+    margin-top: 30px;
+}
+
+.submitBtn:hover {
+    background-image: linear-gradient(white, whitesmoke);
+    color: #ffa31a;
+    border: 2px solid #ffa31a;
+}
+
